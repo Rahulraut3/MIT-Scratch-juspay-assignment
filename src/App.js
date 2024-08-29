@@ -70,7 +70,7 @@ export default function App() {
     <div className="bg-white-100 overflow-hidden font-sans h-screen flex flex-col">
       {/* Navigation Bar */}
       <nav className="fixed w-full bg-purple-500 text-white flex justify-between items-center ">
-      <img src={process.env.PUBLIC_URL+'/logo.png'} alt="Your Logo" className="h-8" />
+      <img src={process.env.PUBLIC_URL + '/icons/logo.png'} alt="Your Logo" className="h-8" />
       
       <div className="flex mr-11 ml-2 space-x-6 ">
       <Link to="/" className="text-white p-2   px-2 py-2">
